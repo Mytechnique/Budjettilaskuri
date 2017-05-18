@@ -22,15 +22,21 @@ namespace Budjettilaskuri
 
         protected void btnSend_Click(object sender, EventArgs e)
         {
+
+            // Make a new Budget -Object and put it to JSON format
             Budjetti b = new Budjetti
             {
                 menot = Int32.Parse(txtMenot.Text),
                 tulot = Int32.Parse(txtTulot.Text),
                 veroprosentti = float.Parse(txtVeroProsentti.Text),
-                date = datepickerInput.ToString()
+                date = datepickerInput.Value.ToString()
             };
             string json = JsonConvert.SerializeObject(b, Formatting.Indented);
+
+            // Set to a label
             lblTest.Text = json;
+
+            //TODO: Set to a file for storage
         }
       
         protected void btnNewBudget_Click(object sender, EventArgs e)

@@ -20,7 +20,7 @@
         <div id="newBudgetFields" runat="server">
 
             <div id="datepicker" class="input-group date" data-provide="datepicker" runat="server">
-             <input runat="server" id="datepickerInput" type="text" class="form-control" required="required"/>
+             <input runat="server" id="datepickerInput" name="datepicker"  type="text" class="form-control" required="required"/>
                 <div class="input-group-addon">
                 <span class="glyphicon glyphicon-th"></span>
                  </div>
@@ -44,7 +44,8 @@
 
             <br />
             <asp:Button ID="btnSend" OnClick="btnSend_Click" runat="server" Text="Lisää" />
-
+            
+            <br />
             <asp:Label ID="lblTest" runat="server" Text=""></asp:Label>
         </div>
     </div>
