@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Budgetcalculator
+namespace BudgetCalculator
 {
     class Calculations
     {
@@ -18,7 +18,7 @@ namespace Budgetcalculator
             
         }
 
-        public int getNetincome()
+        public int getnetIncome()
         {
 
             return _netincome;

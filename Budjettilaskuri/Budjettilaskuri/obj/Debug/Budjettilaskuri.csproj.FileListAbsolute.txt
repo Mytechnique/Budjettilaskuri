@@ -7,3 +7,6 @@ E:\Users\Shaedris\Visual Studio 2015\Projects\Harjoitukset\Budjettilaskuri\Budje
 E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.exe.config
 E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.exe
 E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.pdb
+E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.exe
+E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.pdb
+E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.csprojResolveAssemblyReference.cache

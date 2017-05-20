@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Budgetcalculator
+namespace BudgetCalculator
 {
     class Program
     {
@@ -31,10 +31,8 @@ namespace Budgetcalculator
                 }
                 while (!int.TryParse(ReadLine(), out taxpercent));
             }
-            else
-            {
-                WriteLine($"Your tax percent is: {taxpercent}%");
-            }
+            WriteLine($"Your tax percent is: {taxpercent}%");
+
 
             WriteLine("Please insert gross income: ");
             if (!int.TryParse(ReadLine(), out income))
@@ -45,10 +43,7 @@ namespace Budgetcalculator
                 }
                 while (!int.TryParse(ReadLine(), out income));
             }
-            else
-            {
-                WriteLine($"Your gross income is: {income}");
-            }
+            WriteLine($"Your gross income is: {income}");
 
 
             WriteLine("Please insert your monthly expenses: ");
@@ -60,10 +55,7 @@ namespace Budgetcalculator
                 }
                 while (!int.TryParse(ReadLine(), out expenses));
             }
-            else
-            {
-                WriteLine($"Your monthly expenses are: {expenses}");
-            }
+            WriteLine($"Your monthly expenses are: {expenses}");
 
             WriteLine("Please insert planned savings: ");
             if (!int.TryParse(ReadLine(), out savings))
@@ -74,11 +66,7 @@ namespace Budgetcalculator
                 }
                 while (!int.TryParse(ReadLine(), out savings));
             }
-            else
-            {
-                WriteLine($"Planned savings: {savings}");
-            }
-
+            WriteLine($"Planned savings: {savings}");
         }
     }
 }
