@@ -5,79 +5,78 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Budjettilaskuri
+namespace Budgetcalculator
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Budjetti();
+            Budget();
             ReadLine();
         }
 
-        private static void Budjetti()      //Pitäisi olla toimivasti vikasietoinen, pyytää käyttäjältä tiedon uudestaan ellei syöte ole oikein.
-                                            //Valitettavasti vähäinen tietoni rajauttaa koodaukseni konsoliohjelmiin.
+        private static void Budget()      //Should be fault tolerant, asks user input again if incorrect.
         {
-            int veroprosentti;
-            int tulot;
-            int menot;
-            int saastot;
+            int taxpercent;
+            int income;
+            int expenses;
+            int savings;
 
-            WriteLine("Syötä veroprosentti: ");
-            if (!int.TryParse(ReadLine(), out veroprosentti))
+            WriteLine("Please insert your tax percent: ");
+            if (!int.TryParse(ReadLine(), out taxpercent))
             {
                 do
                 {
-                    WriteLine("Syöte ei ole kelvollinen. Syötä veroprosentti: ");
+                    WriteLine("Input invalid. Please input your tax percent: ");
                 }
-                while (!int.TryParse(ReadLine(), out veroprosentti));
+                while (!int.TryParse(ReadLine(), out taxpercent));
             }
             else
             {
-                WriteLine($"Veroprosentti on: {veroprosentti}%");
+                WriteLine($"Your tax percent is: {taxpercent}%");
             }
 
-            WriteLine("Syötä bruttotulo: ");
-            if (!int.TryParse(ReadLine(), out tulot))
+            WriteLine("Please insert gross income: ");
+            if (!int.TryParse(ReadLine(), out income))
             {
                 do
                 {
-                    WriteLine("Syöte ei ole kelvollinen. Syötä bruttotulo: ");
+                    WriteLine("Input invalid. Please input your gross income: ");
                 }
-                while (!int.TryParse(ReadLine(), out tulot));
+                while (!int.TryParse(ReadLine(), out income));
             }
             else
             {
-                WriteLine($"Bruttotulosi on: {tulot}");
+                WriteLine($"Your gross income is: {income}");
             }
 
 
-            WriteLine("Syötä kulut/kk: ");
-            if (!int.TryParse(ReadLine(), out menot))
+            WriteLine("Please insert your monthly expenses: ");
+            if (!int.TryParse(ReadLine(), out expenses))
             {
                 do
                 {
-                    WriteLine("Syöte ei ole kelvollinen. Syötä kulut/kk: ");
+                    WriteLine("Input invalid. Please input your expenses: ");
                 }
-                while (!int.TryParse(ReadLine(), out menot));
+                while (!int.TryParse(ReadLine(), out expenses));
             }
             else
             {
-                WriteLine($"Kuukausittaiset kulusi ovat: {menot}");
+                WriteLine($"Your monthly expenses are: {expenses}");
             }
 
-            WriteLine("Syötä tavoitesäästö: ");
-            if (!int.TryParse(ReadLine(), out saastot))
+            WriteLine("Please insert planned savings: ");
+            if (!int.TryParse(ReadLine(), out savings))
             {
                 do
                 {
-                    WriteLine("Syöte ei ole kelvollinen. Syötä tavoitesäästö: ");
+                    WriteLine("Input invalid. Please input your planned savings: ");
                 }
-                while (!int.TryParse(ReadLine(), out saastot));
+                while (!int.TryParse(ReadLine(), out savings));
             }
             else
             {
-                WriteLine($"Tavoite on: {saastot}");
+                WriteLine($"Planned savings: {savings}");
             }
 
         }

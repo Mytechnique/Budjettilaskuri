@@ -4,32 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Budjettilaskuri
+namespace Budgetcalculator
 {
-    class Laskutoimitus
+    class Calculations
     {
-        public int _nettotulo; //brutto - vero
-        public int _palkanerotus; //nettotulo - menot
-        public int _hsaastot;//palkanerotus - haluttu säästö
+        public int _netincome; // gross income - tax
+        public int _incomedifference; //net income  - expenses
+        public int _plannedsavings;//income difference - planned savings
 
-        public Laskutoimitus(int _nettotulo, int _palkanerotus, int _hsaastot)  //Laajalti ottanut saatavilla olevasta materiaalista mallia.
+        public Calculations(int _netincome, int _incomedifference, int _plannedsavings)  //Laajalti ottanut saatavilla olevasta materiaalista mallia.
             //Mahd, että tehnyt väärin/parempia ratkaisuja. Luokkaan laskutoimitusten määritys jotta ne voisi lisätä main metodiin?
         {
             
         }
 
-        public int getNetto()
+        public int getNetincome()
         {
 
-            return _nettotulo;
+            return _netincome;
         }
-        public int getErotus()
+        public int getDifference()
         {
-            return _palkanerotus;
+            return _incomedifference;
         }
-        public int getSaastot()
+        public int getBudget()
         {
-            return _hsaastot;
+            return _plannedsavings;
         }
     }
 }
