@@ -50,14 +50,14 @@
             <br />
             <asp:Label ID="lblTest" runat="server" Text=""></asp:Label>
         </div>
-        <asp:GridView class="col-md-10 col-md-offset-1" ID="gvBudgets" runat="server">
+        <asp:GridView class="col-md-10 table table-responsive" ID="gvBudgets" runat="server">
         </asp:GridView>
     </div>
     </form>
 
     <script src="scripts/jquery-1.9.1.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
-    <script src="scripts/budjettilaskuri.js"></script>
+    <script src="scripts/budgetcalculator.js"></script>
     <script src="scripts/bootstrap-datepicker.min.js"></script>
 </body>
 </html>

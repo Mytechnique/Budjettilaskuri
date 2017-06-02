@@ -4,17 +4,20 @@
     var month = d.getMonth() + 1;
     var day = d.getDate();
 
-    var output = d.getFullYear() + '/' +
+    var output =
+        (('' + day).length < 2 ? '0' : '') + day + '/' +
         (('' + month).length < 2 ? '0' : '') + month + '/' +
-        (('' + day).length < 2 ? '0' : '') + day;
+        d.getFullYear();
 
     console.log(output);
 
     $("#datepicker").datepicker({
         format: 'dd/mm/yyyy',
         autoclose: true,
-        todayHighlight: false,
+        todayHighlight: true,
 
     });
+
+    $("#datepicker").datepicker('setDate', output);
 
 })

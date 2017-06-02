@@ -125,6 +125,7 @@ namespace Budjettilaskuri
         {
             GetAllBudgets();
             gvBudgets.Visible = true;
+            btnNewBudget.Visible = true;
             newBudgetFields.Visible = false;
         }
     }

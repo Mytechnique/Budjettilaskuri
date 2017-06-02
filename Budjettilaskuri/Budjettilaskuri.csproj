@@ -160,7 +160,7 @@
     <Content Include="scripts\bootstrap-datepicker.min.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="scripts\budjettilaskuri.js" />
+    <Content Include="scripts\budgetcalculator.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
     <Content Include="scripts\jquery-1.9.1.min.js" />
     <Content Include="scripts\locales\bootstrap-datepicker.ar.min.js" />
