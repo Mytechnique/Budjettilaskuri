@@ -14,6 +14,7 @@ E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\VBCSCompiler.exe.confi
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Budjettilaskuri.dll.config
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Budjettilaskuri.dll
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Budjettilaskuri.pdb
+E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\dotless.Core.dll
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.Agent.Intercept.dll
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.DependencyCollector.dll
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -23,6 +24,7 @@ E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.WindowsServer.dl
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.ApplicationInsights.dll
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Newtonsoft.Json.dll
+E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\dotless.Core.pdb
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.DependencyCollector.xml
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.Web.xml

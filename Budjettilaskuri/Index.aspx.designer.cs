@@ -67,58 +67,67 @@ namespace Budjettilaskuri {
         protected global::System.Web.UI.HtmlControls.HtmlInputText datepickerInput;
         
         /// <summary>
-        /// txtTulot control.
+        /// txtIncome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTulot;
+        protected global::System.Web.UI.WebControls.TextBox txtIncome;
         
         /// <summary>
-        /// RequiredFieldValidatorTulot control.
+        /// RequiredFieldValidatorIncome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorTulot;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorIncome;
         
         /// <summary>
-        /// txtMenot control.
+        /// txtExpenses control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMenot;
+        protected global::System.Web.UI.WebControls.TextBox txtExpenses;
         
         /// <summary>
-        /// RequiredFieldValidatorMenot control.
+        /// RequiredFieldValidatorExpenses control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorMenot;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorExpenses;
         
         /// <summary>
-        /// txtVeroProsentti control.
+        /// txtTaxPercent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtVeroProsentti;
+        protected global::System.Web.UI.WebControls.TextBox txtTaxPercent;
         
         /// <summary>
-        /// RequiredFieldValidatorVeroProsentti control.
+        /// RequiredFieldValidatorTaxPercent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorVeroProsentti;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorTaxPercent;
+        
+        /// <summary>
+        /// RegularExpressionValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
         
         /// <summary>
         /// btnSend control.
@@ -137,5 +146,14 @@ namespace Budjettilaskuri {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTest;
+        
+        /// <summary>
+        /// gvBudgets control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvBudgets;
     }
 }

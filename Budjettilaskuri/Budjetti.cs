@@ -9,9 +9,9 @@ namespace Budjettilaskuri
 {
     public class Budjetti
     {
-        public int tulot { get; set; }
-        public int menot { get; set;}
-        public float veroprosentti { get; set; }
+        public int income { get; set; }
+        public int expenses { get; set;}
+        public float taxPercent { get; set; }
         public string date { get; set; }
     }
 }
