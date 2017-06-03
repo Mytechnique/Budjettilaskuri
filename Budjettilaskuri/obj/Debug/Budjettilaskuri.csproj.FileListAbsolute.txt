@@ -1,35 +1,18 @@
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\ApplicationInsights.config
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\csc.exe
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\Microsoft.CodeAnalysis.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\Microsoft.CSharp.Core.targets
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\Microsoft.VisualBasic.Core.targets
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\System.Collections.Immutable.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\System.Reflection.Metadata.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\vbc.exe
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\VBCSCompiler.exe
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\roslyn\VBCSCompiler.exe.config
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Budjettilaskuri.dll.config
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Budjettilaskuri.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Budjettilaskuri.pdb
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.Agent.Intercept.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.DependencyCollector.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.PerfCounterCollector.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.ServerTelemetryChannel.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.Web.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.WindowsServer.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.ApplicationInsights.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Newtonsoft.Json.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.DependencyCollector.xml
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.ServerTelemetryChannel.xml
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.Web.xml
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.AI.WindowsServer.xml
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.ApplicationInsights.xml
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Newtonsoft.Json.xml
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.dll
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.pdb
-E:\2017\School\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.csprojResolveAssemblyReference.cache
+E:\Users\Shaedris\Visual Studio 2015\Projects\Harjoitukset\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.exe.config
+E:\Users\Shaedris\Visual Studio 2015\Projects\Harjoitukset\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.exe
+E:\Users\Shaedris\Visual Studio 2015\Projects\Harjoitukset\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.pdb
+E:\Users\Shaedris\Visual Studio 2015\Projects\Harjoitukset\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.csprojResolveAssemblyReference.cache
+E:\Users\Shaedris\Visual Studio 2015\Projects\Harjoitukset\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.exe
+E:\Users\Shaedris\Visual Studio 2015\Projects\Harjoitukset\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.pdb
+E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.exe.config
+E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.exe
+E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.pdb
+E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.exe
+E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.pdb
+E:\Users\Shaedris\Visual Studio 2015\Projects\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.csprojResolveAssemblyReference.cache
+C:\Users\Joona\Downloads\Budjettilaskuri-Shaedris-patch-1\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.exe.config
+C:\Users\Joona\Downloads\Budjettilaskuri-Shaedris-patch-1\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.exe
+C:\Users\Joona\Downloads\Budjettilaskuri-Shaedris-patch-1\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.pdb
+C:\Users\Joona\Downloads\Budjettilaskuri-Shaedris-patch-1\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.exe
+C:\Users\Joona\Downloads\Budjettilaskuri-Shaedris-patch-1\Budjettilaskuri\Budjettilaskuri\bin\Debug\Budjettilaskuri.pdb
+C:\Users\Joona\Downloads\Budjettilaskuri-Shaedris-patch-1\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.csprojResolveAssemblyReference.cache
