@@ -50,6 +50,7 @@
             <asp:Button ID="btnSend" CssClass="btn" OnClick="btnSend_Click" runat="server" Text="Lisää" />
             
             <br />
+            <asp:Label ID="lblSuccess" runat="server" Visible="false" Text="Budjettimerkinnän lisäys onnistui!"></asp:Label>
 
         </div>
         <asp:GridView class="col-md-10 table table-responsive" ID="gvBudgets" runat="server" AutoGenerateColumns="false">

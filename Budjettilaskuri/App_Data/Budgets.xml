@@ -32,4 +32,20 @@
     <TaxPercent>3</TaxPercent>
     <Date>June/2017</Date>
   </Budget>
+  <Budget>
+    <Expenses>2500</Expenses>
+    <Income>3000</Income>
+    <Balance>500</Balance>
+    <TaxesPaid>600</TaxesPaid>
+    <TaxPercent>20</TaxPercent>
+    <Date>July/2017</Date>
+  </Budget>
+  <Budget>
+    <Expenses>222</Expenses>
+    <Income>343</Income>
+    <Balance>121</Balance>
+    <TaxesPaid>75,46</TaxesPaid>
+    <TaxPercent>22</TaxPercent>
+    <Date>June/2017</Date>
+  </Budget>
 </Budgets>

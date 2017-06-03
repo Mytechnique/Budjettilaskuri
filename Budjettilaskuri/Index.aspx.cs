@@ -119,6 +119,7 @@ namespace Budjettilaskuri
                 xtw.Close();
             }
 
+            lblSuccess.Visible = true;
         }
 
         private int SumExpenses()
@@ -175,6 +176,7 @@ namespace Budjettilaskuri
             gvBudgets.Visible = false;
             lblSavingsAsp.Visible = false;
             lblTaxesAsp.Visible = false;
+            lblSuccess.Visible = false;
         }
 
         protected void btnShowBudgets_Click(object sender, EventArgs e)
@@ -187,6 +189,7 @@ namespace Budjettilaskuri
             lblTaxesAsp.Visible = true;
             YearlySavings();
             TaxesPaid();
+            lblSuccess.Visible = false;
 
         }
 
