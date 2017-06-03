@@ -1,33 +1,35 @@
 <?xml version="1.0"?>
 <Budgets>
   <Budget>
-    <Expenses>42</Expenses>
+    <Expenses>45</Expenses>
     <Income>23</Income>
-    <TaxPercent>55</TaxPercent>
-    <Date>07/06/2017</Date>
+    <Balance>-22</Balance>
+    <TaxesPaid>0,46</TaxesPaid>
+    <TaxPercent>2</TaxPercent>
+    <Date>June/2017</Date>
   </Budget>
   <Budget>
-    <Expenses>5</Expenses>
-    <Income>4</Income>
-    <TaxPercent>7</TaxPercent>
-    <Date>13/06/2017</Date>
+    <Expenses>20</Expenses>
+    <Income>54</Income>
+    <Balance>34</Balance>
+    <TaxesPaid>2,16</TaxesPaid>
+    <TaxPercent>4</TaxPercent>
+    <Date>June/2017</Date>
   </Budget>
   <Budget>
-    <Expenses>57</Expenses>
-    <Income>4</Income>
-    <TaxPercent>7</TaxPercent>
-    <Date>13/06/2017</Date>
+    <Expenses>250</Expenses>
+    <Income>300</Income>
+    <Balance>50</Balance>
+    <TaxesPaid>72</TaxesPaid>
+    <TaxPercent>24</TaxPercent>
+    <Date>August/2017</Date>
   </Budget>
   <Budget>
-    <Expenses>57</Expenses>
-    <Income>4</Income>
-    <TaxPercent>7</TaxPercent>
-    <Date>13/06/2017</Date>
-  </Budget>
-  <Budget>
-    <Expenses>5</Expenses>
-    <Income>5</Income>
-    <TaxPercent>5</TaxPercent>
-    <Date>16/06/2017</Date>
+    <Expenses>600</Expenses>
+    <Income>300</Income>
+    <Balance>-300</Balance>
+    <TaxesPaid>9</TaxesPaid>
+    <TaxPercent>3</TaxPercent>
+    <Date>June/2017</Date>
   </Budget>
 </Budgets>

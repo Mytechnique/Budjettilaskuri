@@ -34,3 +34,4 @@ E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Microsoft.CodeDom.Providers.D
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\bin\Newtonsoft.Json.xml
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.dll
 E:\2017\School\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.pdb
+E:\2017\School\Budjettilaskuri\Budjettilaskuri\obj\Debug\Budjettilaskuri.csprojResolveAssemblyReference.cache

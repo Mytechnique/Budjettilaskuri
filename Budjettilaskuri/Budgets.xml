@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Budgets>
+  <Budget>
+    <Expenses>42</Expenses>
+    <Income>23</Income>
+    <TaxPercent>55</TaxPercent>
+    <Date>07/06/2017</Date>
+  </Budget>
+  <Budget>
+    <Expenses>4</Expenses>
+    <Income>3</Income>
+    <TaxPercent>77</TaxPercent>
+    <Date>14/06/2017</Date>
+  </Budget>
+  <Budget>
+    <Expenses>4</Expenses>
+    <Income>3</Income>
+    <TaxPercent>77</TaxPercent>
+    <Date>14/06/2017</Date>
+  </Budget>
+  <Budget>
+    <Expenses>7</Expenses>
+    <Income>7</Income>
+    <TaxPercent>7</TaxPercent>
+    <Date>15/06/2017</Date>
+  </Budget>
+</Budgets>

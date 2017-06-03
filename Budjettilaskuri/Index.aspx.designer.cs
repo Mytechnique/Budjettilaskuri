@@ -49,6 +49,15 @@ namespace Budjettilaskuri {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl newBudgetFields;
         
         /// <summary>
+        /// lblDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDate;
+        
+        /// <summary>
         /// datepicker control.
         /// </summary>
         /// <remarks>
@@ -65,6 +74,15 @@ namespace Budjettilaskuri {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText datepickerInput;
+        
+        /// <summary>
+        /// lblIncome control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblIncome;
         
         /// <summary>
         /// txtIncome control.
@@ -85,6 +103,15 @@ namespace Budjettilaskuri {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorIncome;
         
         /// <summary>
+        /// lblExpenses control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblExpenses;
+        
+        /// <summary>
         /// txtExpenses control.
         /// </summary>
         /// <remarks>
@@ -101,6 +128,15 @@ namespace Budjettilaskuri {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorExpenses;
+        
+        /// <summary>
+        /// lblTaxPercent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTaxPercent;
         
         /// <summary>
         /// txtTaxPercent control.
@@ -139,15 +175,6 @@ namespace Budjettilaskuri {
         protected global::System.Web.UI.WebControls.Button btnSend;
         
         /// <summary>
-        /// lblTest control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTest;
-        
-        /// <summary>
         /// gvBudgets control.
         /// </summary>
         /// <remarks>
@@ -155,5 +182,23 @@ namespace Budjettilaskuri {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvBudgets;
+        
+        /// <summary>
+        /// lblSavingsAsp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSavingsAsp;
+        
+        /// <summary>
+        /// lblTaxesAsp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTaxesAsp;
     }
 }

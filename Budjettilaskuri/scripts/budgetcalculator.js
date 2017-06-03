@@ -3,21 +3,24 @@
 
     var month = d.getMonth() + 1;
     var day = d.getDate();
-
+    //  (('' + day).length < 2 ? '0' : '') + day + '/' +
     var output =
-        (('' + day).length < 2 ? '0' : '') + day + '/' +
+      
         (('' + month).length < 2 ? '0' : '') + month + '/' +
         d.getFullYear();
 
     console.log(output);
 
     $("#datepicker").datepicker({
-        format: 'dd/mm/yyyy',
+        format: 'MM/yyyy',
         autoclose: true,
         todayHighlight: true,
+        viewMode: 'months',
+        minViewMode: 'months'
 
     });
 
     $("#datepicker").datepicker('setDate', output);
 
+    console.log($("#lblSavings").innerText);
 })
