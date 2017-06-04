@@ -18,7 +18,7 @@
         <asp:Button ID="btnShowBudgets" CssClass="btn btn-default col-md-5" OnClick="btnShowBudgets_Click" runat="server" Text="Näytä budjettimerkinnät" />
         </div>
 
-        <div id="newBudgetFields" class="col-md-10 col-md-offset-1" runat="server">
+        <div id="newBudgetFields" class="col-md-10" runat="server">
             <asp:Label ID="lblDate" runat="server" Text="Valitse kuukausi budjetille: "></asp:Label>
             <div id="datepicker" class="input-group date" data-provide="datepicker" runat="server">
              <input runat="server" id="datepickerInput" name="datepicker"  type="text" class="form-control" required="required"/>
@@ -27,12 +27,12 @@
                  </div>
             </div>
 
-            <asp:Label ID="lblIncome" runat="server" Text="Syötä kuukauden tulot: "></asp:Label>
+            <asp:Label ID="lblIncome" runat="server" Text="Syötä kuukauden tulot: "></asp:Label>    <asp:CompareValidator runat="server" Operator="DataTypeCheck" Type="Integer" ControlToValidate="txtIncome" ForeColor="red" ErrorMessage="Syötä kokonaisluku!" />
             <asp:TextBox CssClass="text-primary" ID="txtIncome" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidatorIncome" ControlToValidate="txtIncome" ForeColor="Red"  runat="server" EnableClientScript="false" ErrorMessage="* Syötä tulot" Display="Dynamic">
             </asp:RequiredFieldValidator>
 
-            <asp:Label ID="lblExpenses" runat="server" Text="Syötä kuukauden menot: "></asp:Label>
+            <asp:Label ID="lblExpenses" runat="server" Text="Syötä kuukauden menot: "></asp:Label> <asp:CompareValidator runat="server" Operator="DataTypeCheck" Type="Integer" ControlToValidate="txtExpenses" ForeColor="red" ErrorMessage="Syötä kokonaisluku!" />
             <asp:TextBox ID="txtExpenses" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidatorExpenses" ControlToValidate="txtExpenses" ForeColor="Red"  runat="server" EnableClientScript="false" ErrorMessage="* Syötä menot" Display="Dynamic">
             </asp:RequiredFieldValidator>
@@ -43,7 +43,7 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidatorTaxPercent" ControlToValidate="txtTaxPercent" ForeColor="Red"  runat="server" EnableClientScript="false" ErrorMessage="* Syötä veroprosentti" Display="Dynamic">
             </asp:RequiredFieldValidator>
             <br />
-                        <asp:RegularExpressionValidator ControlToValidate="txtTaxPercent" ID="RegularExpressionValidator1" ValidationExpression="^[1-9][0-9]?$|^100$" runat="server" ErrorMessage="Syötä veroprosentti väliltä 0-100!"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ControlToValidate="txtTaxPercent" ID="RegularExpressionValidator1" ValidationExpression="^[1-9][0-9]?$|^100$" runat="server" ErrorMessage="Syötä veroprosentti väliltä 1-100!"></asp:RegularExpressionValidator>
             <br />
 
             <br />

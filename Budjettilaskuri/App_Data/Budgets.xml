@@ -48,4 +48,12 @@
     <TaxPercent>22</TaxPercent>
     <Date>June/2017</Date>
   </Budget>
+  <Budget>
+    <Expenses>4</Expenses>
+    <Income>2</Income>
+    <Balance>-2</Balance>
+    <TaxesPaid>0,02</TaxesPaid>
+    <TaxPercent>1</TaxPercent>
+    <Date>June/2017</Date>
+  </Budget>
 </Budgets>
