@@ -196,7 +196,7 @@ namespace Budjettilaskuri
         private void YearlySavings() {
             if(SumBalances() <= 0)
             {
-                lblSavingsAsp.Text = "Ei säästöjä, olet miinuksella budjetissasi" + SumBalances().ToString() + "€";
+                lblSavingsAsp.Text = "Ei säästöjä, olet miinuksella budjetissasi " + SumBalances().ToString() + "€";
             }
             else
             {
